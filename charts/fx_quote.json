@@ -1,0 +1,283 @@
+{
+  "as_of": "2026-11-02",
+  "start": "2004-01-19",
+  "base": "EUR",
+  "benchmark": "equal",
+  "benchmark_name": "Gleichgewichteter Korb",
+  "settings": {
+    "lookback": 1008,
+    "cap": 2.0,
+    "smoothing": 15,
+    "lag": 1,
+    "cost_bp": 5.0,
+    "carry": true
+  },
+  "strategy": {
+    "days": 5838,
+    "years": 23.166667,
+    "total": 0.768874,
+    "cagr": 0.024925,
+    "vol": 0.046458,
+    "sharpe": 0.55317,
+    "sortino": 0.806987,
+    "max_dd": -0.111475,
+    "calmar": 0.22359,
+    "worst_day": -0.017429,
+    "hit_rate": 0.520726
+  },
+  "benchmark_metrics": {
+    "days": 5838,
+    "years": 23.166667,
+    "total": 0.711082,
+    "cagr": 0.023456,
+    "vol": 0.043967,
+    "sharpe": 0.549331,
+    "sortino": 0.805005,
+    "max_dd": -0.107216,
+    "calmar": 0.218775,
+    "worst_day": -0.019086,
+    "hit_rate": 0.523296
+  },
+  "turnover_pa": 2.013279,
+  "annual_returns": [
+    {
+      "year": 2004,
+      "strategy": 0.003535,
+      "benchmark": 0.003757,
+      "diff": -0.000222
+    },
+    {
+      "year": 2005,
+      "strategy": 0.09945,
+      "benchmark": 0.099327,
+      "diff": 0.000122
+    },
+    {
+      "year": 2006,
+      "strategy": 0.000865,
+      "benchmark": -0.00941,
+      "diff": 0.010275
+    },
+    {
+      "year": 2007,
+      "strategy": 0.027766,
+      "benchmark": 0.021851,
+      "diff": 0.005915
+    },
+    {
+      "year": 2008,
+      "strategy": -0.04335,
+      "benchmark": -0.007628,
+      "diff": -0.035722
+    },
+    {
+      "year": 2009,
+      "strategy": 0.135447,
+      "benchmark": 0.09039,
+      "diff": 0.045057
+    },
+    {
+      "year": 2010,
+      "strategy": 0.128914,
+      "benchmark": 0.142388,
+      "diff": -0.013474
+    },
+    {
+      "year": 2011,
+      "strategy": 0.068699,
+      "benchmark": 0.053683,
+      "diff": 0.015017
+    },
+    {
+      "year": 2012,
+      "strategy": 0.03343,
+      "benchmark": 0.019962,
+      "diff": 0.013468
+    },
+    {
+      "year": 2013,
+      "strategy": -0.067738,
+      "benchmark": -0.058333,
+      "diff": -0.009405
+    },
+    {
+      "year": 2014,
+      "strategy": 0.027468,
+      "benchmark": 0.047281,
+      "diff": -0.019813
+    },
+    {
+      "year": 2015,
+      "strategy": 0.030377,
+      "benchmark": 0.04257,
+      "diff": -0.012192
+    },
+    {
+      "year": 2016,
+      "strategy": 0.037077,
+      "benchmark": 0.01661,
+      "diff": 0.020466
+    },
+    {
+      "year": 2017,
+      "strategy": -0.040808,
+      "benchmark": -0.055311,
+      "diff": 0.014503
+    },
+    {
+      "year": 2018,
+      "strategy": 0.010586,
+      "benchmark": 0.009288,
+      "diff": 0.001298
+    },
+    {
+      "year": 2019,
+      "strategy": 0.037831,
+      "benchmark": 0.034001,
+      "diff": 0.003831
+    },
+    {
+      "year": 2020,
+      "strategy": -0.013989,
+      "benchmark": -0.019816,
+      "diff": 0.005828
+    },
+    {
+      "year": 2021,
+      "strategy": 0.056918,
+      "benchmark": 0.044083,
+      "diff": 0.012836
+    },
+    {
+      "year": 2022,
+      "strategy": -0.015451,
+      "benchmark": -0.002178,
+      "diff": -0.013273
+    },
+    {
+      "year": 2023,
+      "strategy": 0.006754,
+      "benchmark": 0.012314,
+      "diff": -0.00556
+    },
+    {
+      "year": 2024,
+      "strategy": 0.026272,
+      "benchmark": 0.030334,
+      "diff": -0.004062
+    },
+    {
+      "year": 2025,
+      "strategy": -0.019653,
+      "benchmark": -0.018479,
+      "diff": -0.001174
+    },
+    {
+      "year": 2026,
+      "strategy": 0.075366,
+      "benchmark": 0.070376,
+      "diff": 0.004989
+    }
+  ],
+  "currencies": [
+    {
+      "code": "NOK",
+      "name": "Norwegische Krone",
+      "price": 0.096362,
+      "zscore": 2.755173,
+      "factor": 0.002314,
+      "base_weight": 0.090909,
+      "weight": 0.000776
+    },
+    {
+      "code": "GBP",
+      "name": "Britisches Pfund",
+      "price": 1.196447,
+      "zscore": 1.570993,
+      "factor": 0.330713,
+      "base_weight": 0.090909,
+      "weight": 0.038875
+    },
+    {
+      "code": "CNY",
+      "name": "Chinesischer Renminbi",
+      "price": 0.134106,
+      "zscore": 1.409691,
+      "factor": 0.326702,
+      "base_weight": 0.090909,
+      "weight": 0.036774
+    },
+    {
+      "code": "CHF",
+      "name": "Schweizer Franken",
+      "price": 1.087784,
+      "zscore": 1.285416,
+      "factor": 0.477985,
+      "base_weight": 0.090909,
+      "weight": 0.05493
+    },
+    {
+      "code": "AUD",
+      "name": "Australischer Dollar",
+      "price": 0.624837,
+      "zscore": 1.003642,
+      "factor": 0.488753,
+      "base_weight": 0.090909,
+      "weight": 0.054545
+    },
+    {
+      "code": "SEK",
+      "name": "Schwedische Krone",
+      "price": 0.091345,
+      "zscore": 0.918678,
+      "factor": 0.786218,
+      "base_weight": 0.090909,
+      "weight": 0.090366
+    },
+    {
+      "code": "EUR",
+      "name": "Euro",
+      "price": 1.0,
+      "zscore": 0.0,
+      "factor": 1.0,
+      "base_weight": 0.090909,
+      "weight": 0.111014
+    },
+    {
+      "code": "USD",
+      "name": "US-Dollar",
+      "price": 0.89158,
+      "zscore": -0.306974,
+      "factor": 1.133538,
+      "base_weight": 0.090909,
+      "weight": 0.125646
+    },
+    {
+      "code": "CAD",
+      "name": "Kanadischer Dollar",
+      "price": 0.638028,
+      "zscore": -0.625668,
+      "factor": 1.370333,
+      "base_weight": 0.090909,
+      "weight": 0.153575
+    },
+    {
+      "code": "JPY",
+      "name": "Japanischer Yen",
+      "price": 0.005646,
+      "zscore": -0.887987,
+      "factor": 1.433026,
+      "base_weight": 0.090909,
+      "weight": 0.159238
+    },
+    {
+      "code": "NZD",
+      "name": "Neuseeland-Dollar",
+      "price": 0.501649,
+      "zscore": -1.233799,
+      "factor": 1.567785,
+      "base_weight": 0.090909,
+      "weight": 0.174262
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "as_of": "2026-11-02",
+  "base": "EUR",
+  "horizons": [
+    "1W",
+    "1M",
+    "3M",
+    "6M",
+    "YTD",
+    "1J",
+    "3J",
+    "5J"
+  ],
+  "zscore_window": 252,
+  "zscore_threshold": 2.0,
+  "interpretation": "Über den letzten Monat war Norwegische Krone (NOK) mit +4,4 % die stärkste und Japanischer Yen (JPY) mit −0,1 % die schwächste Währung gegenüber dem Euro. 8 von 10 Währungen notieren über ihrem 200-Tage-Durchschnitt. Z-Score-Signal (|z| ≥ 2,0): JPY (+2,0), USD (+2,1), NOK (+2,1), CNY (+2,1), GBP (+2,8), CAD (+2,8).",
+  "currencies": [
+    {
+      "code": "USD",
+      "name": "US-Dollar",
+      "returns": {
+        "1W": -0.002495,
+        "1M": 0.000797,
+        "3M": 0.030133,
+        "6M": 0.048585,
+        "YTD": 0.047611,
+        "1J": 0.024604,
+        "3J": -0.043872,
+        "5J": 0.013102
+      },
+      "dist_ma200": 0.030309,
+      "above_ma200": true,
+      "zscore": 2.083941,
+      "signal": "stark"
+    },
+    {
+      "code": "JPY",
+      "name": "Japanischer Yen",
+      "returns": {
+        "1W": -0.005338,
+        "1M": -0.000661,
+        "3M": 0.02811,
+        "6M": 0.041014,
+        "YTD": 0.039451,
+        "1J": -0.002455,
+        "3J": -0.081475,
+        "5J": -0.276136
+      },
+      "dist_ma200": 0.034292,
+      "above_ma200": true,
+      "zscore": 2.038874,
+      "signal": "stark"
+    },
+    {
+      "code": "GBP",
+      "name": "Britisches Pfund",
+      "returns": {
+        "1W": 0.002873,
+        "1M": 0.01737,
+        "3M": 0.025599,
+        "6M": 0.033852,
+        "YTD": 0.044026,
+        "1J": 0.05407,
+        "3J": 0.043659,
+        "5J": 0.019043
+      },
+      "dist_ma200": 0.029534,
+      "above_ma200": true,
+      "zscore": 2.796588,
+      "signal": "stark"
+    },
+    {
+      "code": "CNY",
+      "name": "Chinesischer Renminbi",
+      "returns": {
+        "1W": 0.000476,
+        "1M": 0.009272,
+        "3M": 0.045891,
+        "6M": 0.0727,
+        "YTD": 0.103188,
+        "1J": 0.098395,
+        "3J": 0.048328,
+        "5J": -0.02914
+      },
+      "dist_ma200": 0.052688,
+      "above_ma200": true,
+      "zscore": 2.10672,
+      "signal": "stark"
+    },
+    {
+      "code": "CHF",
+      "name": "Schweizer Franken",
+      "returns": {
+        "1W": 0.00544,
+        "1M": 0.009356,
+        "3M": 0.016534,
+        "6M": -0.004022,
+        "YTD": 0.013165,
+        "1J": 0.012404,
+        "3J": 0.051668,
+        "5J": 0.134556
+      },
+      "dist_ma200": 0.004705,
+      "above_ma200": true,
+      "zscore": 0.577397,
+      "signal": "neutral"
+    },
+    {
+      "code": "CAD",
+      "name": "Kanadischer Dollar",
+      "returns": {
+        "1W": 0.00136,
+        "1M": 0.019847,
+        "3M": 0.035514,
+        "6M": 0.024872,
+        "YTD": 0.02647,
+        "1J": 0.036043,
+        "3J": -0.053656,
+        "5J": -0.07368
+      },
+      "dist_ma200": 0.023969,
+      "above_ma200": true,
+      "zscore": 2.836461,
+      "signal": "stark"
+    },
+    {
+      "code": "AUD",
+      "name": "Australischer Dollar",
+      "returns": {
+        "1W": -0.004802,
+        "1M": 0.010757,
+        "3M": 0.02378,
+        "6M": 0.015956,
+        "YTD": 0.098564,
+        "1J": 0.107469,
+        "3J": 0.050944,
+        "5J": -0.006637
+      },
+      "dist_ma200": 0.023562,
+      "above_ma200": true,
+      "zscore": 1.190938,
+      "signal": "neutral"
+    },
+    {
+      "code": "NZD",
+      "name": "Neuseeland-Dollar",
+      "returns": {
+        "1W": -0.01198,
+        "1M": 0.003387,
+        "3M": -0.012758,
+        "6M": -0.010001,
+        "YTD": 0.022383,
+        "1J": 0.0208,
+        "3J": -0.083466,
+        "5J": -0.165031
+      },
+      "dist_ma200": -0.005779,
+      "above_ma200": false,
+      "zscore": -0.058259,
+      "signal": "neutral"
+    },
+    {
+      "code": "SEK",
+      "name": "Schwedische Krone",
+      "returns": {
+        "1W": 0.017454,
+        "1M": 0.03128,
+        "3M": 0.001458,
+        "6M": -0.009643,
+        "YTD": -0.011506,
+        "1J": 0.006391,
+        "3J": 0.064499,
+        "5J": -0.060427
+      },
+      "dist_ma200": -0.001295,
+      "above_ma200": false,
+      "zscore": -0.132011,
+      "signal": "neutral"
+    },
+    {
+      "code": "NOK",
+      "name": "Norwegische Krone",
+      "returns": {
+        "1W": 0.007424,
+        "1M": 0.043739,
+        "3M": 0.05839,
+        "6M": 0.042782,
+        "YTD": 0.141215,
+        "1J": 0.132154,
+        "3J": 0.151045,
+        "5J": -0.009444
+      },
+      "dist_ma200": 0.058125,
+      "above_ma200": true,
+      "zscore": 2.087726,
+      "signal": "stark"
+    }
+  ]
+}
