@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-03",
   "start": "2004-01-19",
   "base": "EUR",
   "benchmark": "equal",
@@ -13,32 +13,32 @@
     "carry": true
   },
   "strategy": {
-    "days": 5838,
-    "years": 23.166667,
-    "total": 0.768874,
-    "cagr": 0.024925,
-    "vol": 0.046458,
-    "sharpe": 0.55317,
-    "sortino": 0.806987,
+    "days": 5839,
+    "years": 23.170635,
+    "total": 0.772111,
+    "cagr": 0.025001,
+    "vol": 0.046455,
+    "sharpe": 0.554806,
+    "sortino": 0.809399,
     "max_dd": -0.111475,
-    "calmar": 0.22359,
+    "calmar": 0.224277,
     "worst_day": -0.017429,
-    "hit_rate": 0.520726
+    "hit_rate": 0.520808
   },
   "benchmark_metrics": {
-    "days": 5838,
-    "years": 23.166667,
-    "total": 0.711082,
-    "cagr": 0.023456,
-    "vol": 0.043967,
-    "sharpe": 0.549331,
-    "sortino": 0.805005,
+    "days": 5839,
+    "years": 23.170635,
+    "total": 0.714438,
+    "cagr": 0.023539,
+    "vol": 0.043965,
+    "sharpe": 0.551188,
+    "sortino": 0.807758,
     "max_dd": -0.107216,
-    "calmar": 0.218775,
+    "calmar": 0.219545,
     "worst_day": -0.019086,
-    "hit_rate": 0.523296
+    "hit_rate": 0.523377
   },
-  "turnover_pa": 2.013279,
+  "turnover_pa": 2.01345,
   "annual_returns": [
     {
       "year": 2004,
@@ -174,65 +174,65 @@
     },
     {
       "year": 2026,
-      "strategy": 0.075366,
-      "benchmark": 0.070376,
-      "diff": 0.004989
+      "strategy": 0.077334,
+      "benchmark": 0.072476,
+      "diff": 0.004858
     }
   ],
   "currencies": [
     {
       "code": "NOK",
       "name": "Norwegische Krone",
-      "price": 0.096362,
-      "zscore": 2.755173,
-      "factor": 0.002314,
+      "price": 0.096912,
+      "zscore": 2.914037,
+      "factor": 0.000251,
       "base_weight": 0.090909,
-      "weight": 0.000776
+      "weight": 0.00026
     },
     {
       "code": "GBP",
       "name": "Britisches Pfund",
-      "price": 1.196447,
-      "zscore": 1.570993,
-      "factor": 0.330713,
+      "price": 1.199633,
+      "zscore": 1.721867,
+      "factor": 0.306569,
       "base_weight": 0.090909,
-      "weight": 0.038875
-    },
-    {
-      "code": "CNY",
-      "name": "Chinesischer Renminbi",
-      "price": 0.134106,
-      "zscore": 1.409691,
-      "factor": 0.326702,
-      "base_weight": 0.090909,
-      "weight": 0.036774
+      "weight": 0.037086
     },
     {
       "code": "CHF",
       "name": "Schweizer Franken",
-      "price": 1.087784,
-      "zscore": 1.285416,
-      "factor": 0.477985,
+      "price": 1.090983,
+      "zscore": 1.404835,
+      "factor": 0.457137,
       "base_weight": 0.090909,
-      "weight": 0.05493
+      "weight": 0.053602
+    },
+    {
+      "code": "CNY",
+      "name": "Chinesischer Renminbi",
+      "price": 0.134066,
+      "zscore": 1.402821,
+      "factor": 0.321777,
+      "base_weight": 0.090909,
+      "weight": 0.036637
     },
     {
       "code": "AUD",
       "name": "Australischer Dollar",
-      "price": 0.624837,
-      "zscore": 1.003642,
-      "factor": 0.488753,
+      "price": 0.624715,
+      "zscore": 1.000708,
+      "factor": 0.486295,
       "base_weight": 0.090909,
-      "weight": 0.054545
+      "weight": 0.054809
     },
     {
       "code": "SEK",
       "name": "Schwedische Krone",
-      "price": 0.091345,
-      "zscore": 0.918678,
-      "factor": 0.786218,
+      "price": 0.091311,
+      "zscore": 0.90515,
+      "factor": 0.761808,
       "base_weight": 0.090909,
-      "weight": 0.090366
+      "weight": 0.088167
     },
     {
       "code": "EUR",
@@ -241,43 +241,43 @@
       "zscore": 0.0,
       "factor": 1.0,
       "base_weight": 0.090909,
-      "weight": 0.111014
+      "weight": 0.112141
     },
     {
       "code": "USD",
       "name": "US-Dollar",
-      "price": 0.89158,
-      "zscore": -0.306974,
-      "factor": 1.133538,
+      "price": 0.89453,
+      "zscore": -0.220497,
+      "factor": 1.13194,
       "base_weight": 0.090909,
-      "weight": 0.125646
+      "weight": 0.127116
     },
     {
       "code": "CAD",
       "name": "Kanadischer Dollar",
-      "price": 0.638028,
-      "zscore": -0.625668,
-      "factor": 1.370333,
+      "price": 0.640093,
+      "zscore": -0.552095,
+      "factor": 1.355461,
       "base_weight": 0.090909,
-      "weight": 0.153575
+      "weight": 0.15367
     },
     {
       "code": "JPY",
       "name": "Japanischer Yen",
-      "price": 0.005646,
-      "zscore": -0.887987,
-      "factor": 1.433026,
+      "price": 0.005651,
+      "zscore": -0.875643,
+      "factor": 1.432318,
       "base_weight": 0.090909,
-      "weight": 0.159238
+      "weight": 0.160701
     },
     {
       "code": "NZD",
       "name": "Neuseeland-Dollar",
-      "price": 0.501649,
-      "zscore": -1.233799,
-      "factor": 1.567785,
+      "price": 0.50311,
+      "zscore": -1.181782,
+      "factor": 1.565233,
       "base_weight": 0.090909,
-      "weight": 0.174262
+      "weight": 0.175813
     }
   ]
 }
