@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "base": "EUR",
   "horizons": [
     "1W",
@@ -13,187 +13,187 @@
   ],
   "zscore_window": 252,
   "zscore_threshold": 2.0,
-  "interpretation": "Über den letzten Monat war Norwegische Krone (NOK) mit +4,3 % die stärkste und Japanischer Yen (JPY) mit +0,2 % die schwächste Währung gegenüber dem Euro. 8 von 10 Währungen notieren über ihrem 200-Tage-Durchschnitt. Z-Score-Signal (|z| ≥ 2,0): CNY (+2,1), JPY (+2,1), NOK (+2,2), USD (+2,3), GBP (+3,0), CAD (+3,1).",
+  "interpretation": "Über den letzten Monat war Norwegische Krone (NOK) mit +3,7 % die stärkste und Japanischer Yen (JPY) mit −0,1 % die schwächste Währung gegenüber dem Euro. 8 von 10 Währungen notieren über ihrem 200-Tage-Durchschnitt. Z-Score-Signal (|z| ≥ 2,0): CAD (+2,5), GBP (+2,8).",
   "currencies": [
     {
       "code": "USD",
       "name": "US-Dollar",
       "returns": {
-        "1W": -0.002598,
-        "1M": 0.00223,
-        "3M": 0.032468,
-        "6M": 0.052413,
-        "YTD": 0.051077,
-        "1J": 0.031658,
-        "3J": -0.027822,
-        "5J": 0.012072
+        "1W": -0.01189,
+        "1M": 0.00018,
+        "3M": 0.023785,
+        "6M": 0.041811,
+        "YTD": 0.042876,
+        "1J": 0.026093,
+        "3J": -0.037093,
+        "5J": 0.006395
       },
-      "dist_ma200": 0.033477,
+      "dist_ma200": 0.0252,
       "above_ma200": true,
-      "zscore": 2.273871,
-      "signal": "stark"
+      "zscore": 1.737396,
+      "signal": "neutral"
     },
     {
       "code": "JPY",
       "name": "Japanischer Yen",
       "returns": {
-        "1W": -0.005559,
-        "1M": 0.00185,
-        "3M": 0.029467,
-        "6M": 0.044767,
-        "YTD": 0.04032,
-        "1J": 0.001091,
-        "3J": -0.076649,
-        "5J": -0.275137
+        "1W": -0.013701,
+        "1M": -0.000831,
+        "3M": 0.024367,
+        "6M": 0.037466,
+        "YTD": 0.032464,
+        "1J": -0.007364,
+        "3J": -0.079929,
+        "5J": -0.282455
       },
-      "dist_ma200": 0.0349,
+      "dist_ma200": 0.026874,
       "above_ma200": true,
-      "zscore": 2.09098,
-      "signal": "stark"
+      "zscore": 1.614741,
+      "signal": "neutral"
     },
     {
       "code": "GBP",
       "name": "Britisches Pfund",
       "returns": {
-        "1W": 0.003595,
-        "1M": 0.016329,
-        "3M": 0.028148,
-        "6M": 0.037537,
-        "YTD": 0.046806,
-        "1J": 0.056506,
-        "3J": 0.045945,
-        "5J": 0.019686
+        "1W": 0.00389,
+        "1M": 0.017018,
+        "3M": 0.027613,
+        "6M": 0.040053,
+        "YTD": 0.045537,
+        "1J": 0.055709,
+        "3J": 0.048649,
+        "5J": 0.020076
       },
-      "dist_ma200": 0.03204,
+      "dist_ma200": 0.030583,
       "above_ma200": true,
-      "zscore": 2.973573,
+      "zscore": 2.820961,
       "signal": "stark"
     },
     {
       "code": "CNY",
       "name": "Chinesischer Renminbi",
       "returns": {
-        "1W": -0.003315,
-        "1M": 0.007081,
-        "3M": 0.044352,
-        "6M": 0.072003,
-        "YTD": 0.102857,
-        "1J": 0.100803,
-        "3J": 0.055127,
-        "5J": -0.033857
+        "1W": -0.012764,
+        "1M": 0.005022,
+        "3M": 0.035339,
+        "6M": 0.060516,
+        "YTD": 0.094252,
+        "1J": 0.095065,
+        "3J": 0.046277,
+        "5J": -0.038296
       },
-      "dist_ma200": 0.051893,
+      "dist_ma200": 0.043246,
       "above_ma200": true,
-      "zscore": 2.070843,
-      "signal": "stark"
+      "zscore": 1.774731,
+      "signal": "neutral"
     },
     {
       "code": "CHF",
       "name": "Schweizer Franken",
       "returns": {
-        "1W": 0.007961,
-        "1M": 0.01581,
-        "3M": 0.019636,
-        "6M": -0.000328,
-        "YTD": 0.016145,
-        "1J": 0.016358,
-        "3J": 0.051714,
-        "5J": 0.137567
+        "1W": 0.006419,
+        "1M": 0.018614,
+        "3M": 0.017307,
+        "6M": -0.001741,
+        "YTD": 0.013718,
+        "1J": 0.013498,
+        "3J": 0.050403,
+        "5J": 0.133435
       },
-      "dist_ma200": 0.007596,
+      "dist_ma200": 0.005141,
       "above_ma200": true,
-      "zscore": 0.841398,
+      "zscore": 0.616439,
       "signal": "neutral"
     },
     {
       "code": "CAD",
       "name": "Kanadischer Dollar",
       "returns": {
-        "1W": 0.000828,
-        "1M": 0.022167,
-        "3M": 0.034167,
-        "6M": 0.029218,
-        "YTD": 0.029793,
-        "1J": 0.040295,
-        "3J": -0.049179,
-        "5J": -0.076136
+        "1W": -0.003948,
+        "1M": 0.022789,
+        "3M": 0.029295,
+        "6M": 0.02469,
+        "YTD": 0.02469,
+        "1J": 0.038905,
+        "3J": -0.051535,
+        "5J": -0.074781
       },
-      "dist_ma200": 0.027105,
+      "dist_ma200": 0.021867,
       "above_ma200": true,
-      "zscore": 3.12886,
+      "zscore": 2.541825,
       "signal": "stark"
     },
     {
       "code": "AUD",
       "name": "Australischer Dollar",
       "returns": {
-        "1W": -0.009424,
-        "1M": 0.005589,
-        "3M": 0.023887,
-        "6M": 0.015076,
-        "YTD": 0.09835,
-        "1J": 0.105579,
-        "3J": 0.040004,
-        "5J": -0.00991
+        "1W": -0.014385,
+        "1M": 0.004881,
+        "3M": 0.020122,
+        "6M": 0.01192,
+        "YTD": 0.094672,
+        "1J": 0.110599,
+        "3J": 0.042007,
+        "5J": -0.005324
       },
-      "dist_ma200": 0.023,
+      "dist_ma200": 0.019258,
       "above_ma200": true,
-      "zscore": 1.177595,
+      "zscore": 1.06458,
       "signal": "neutral"
     },
     {
       "code": "NZD",
       "name": "Neuseeland-Dollar",
       "returns": {
-        "1W": -0.016342,
-        "1M": 0.008148,
-        "3M": -0.012942,
-        "6M": -0.004588,
-        "YTD": 0.025362,
-        "1J": 0.023999,
-        "3J": -0.095131,
-        "5J": -0.16746
+        "1W": -0.007713,
+        "1M": 0.003676,
+        "3M": -0.017074,
+        "6M": -0.012218,
+        "YTD": 0.019655,
+        "1J": 0.029101,
+        "3J": -0.092403,
+        "5J": -0.166405
       },
-      "dist_ma200": -0.00289,
+      "dist_ma200": -0.008407,
       "above_ma200": false,
-      "zscore": 0.158308,
+      "zscore": -0.282865,
       "signal": "neutral"
     },
     {
       "code": "SEK",
       "name": "Schwedische Krone",
       "returns": {
-        "1W": 0.011686,
-        "1M": 0.027478,
-        "3M": -0.002512,
-        "6M": -0.006855,
-        "YTD": -0.01187,
-        "1J": 0.003509,
-        "3J": 0.045603,
-        "5J": -0.066247
+        "1W": 0.007673,
+        "1M": 0.024676,
+        "3M": -0.002404,
+        "6M": -0.007134,
+        "YTD": -0.013691,
+        "1J": 0.006758,
+        "3J": 0.047223,
+        "5J": -0.064346
       },
-      "dist_ma200": -0.001494,
+      "dist_ma200": -0.003145,
       "above_ma200": false,
-      "zscore": -0.154378,
+      "zscore": -0.263876,
       "signal": "neutral"
     },
     {
       "code": "NOK",
       "name": "Norwegische Krone",
       "returns": {
-        "1W": 0.006771,
-        "1M": 0.042535,
-        "3M": 0.066069,
-        "6M": 0.049312,
-        "YTD": 0.147732,
-        "1J": 0.136441,
-        "3J": 0.138338,
-        "5J": -0.009605
+        "1W": -0.004759,
+        "1M": 0.036653,
+        "3M": 0.055593,
+        "6M": 0.035985,
+        "YTD": 0.139085,
+        "1J": 0.133019,
+        "3J": 0.131826,
+        "5J": -0.009691
       },
-      "dist_ma200": 0.063553,
+      "dist_ma200": 0.054988,
       "above_ma200": true,
-      "zscore": 2.23447,
-      "signal": "stark"
+      "zscore": 1.983782,
+      "signal": "neutral"
     }
   ]
 }
