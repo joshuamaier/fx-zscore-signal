@@ -6,7 +6,7 @@ status: entwurf
 
 # Währungsquote: Was, wenn man teure Währungen untergewichtet?
 
-*Stand 10.11.2026*
+*Stand 11.11.2026*
 
 Wer als Euro-Anleger in Fremdwährungen investiert, hat meist ein festes Währungsgewicht im Kopf. Die Frage
 dieses Beitrags: **Lohnt es sich, dieses Gewicht zu verschieben, sobald eine Währung im Vergleich zu ihrer eigenen
@@ -42,20 +42,20 @@ und Neuseeland-Dollar sowie Schwedischer und Norwegischer Krone. Vergleichsmaßs
 
 ## Ergebnis: Kennzahlen im Überblick
 
-19.01.2004 bis 10.11.2026 (23,2 Jahre). Einstellungen: Lookback 4 Jahre, Kappung 2,00σ, Glättung 15 Tage, Versatz 1 Tag(e), Kosten 5 bp, mit Carry.
+19.01.2004 bis 11.11.2026 (23,2 Jahre). Einstellungen: Lookback 4 Jahre, Kappung 2,00σ, Glättung 15 Tage, Versatz 1 Tag(e), Kosten 5 bp, mit Carry.
 
 | Kennzahl | Währungsquote | Gleichgewichteter Korb |
 |---|---:|---:|
-| Gesamtrendite | +76,4 % | +70,3 % |
-| Rendite p. a. | +2,48 % | +2,32 % |
+| Gesamtrendite | +76,6 % | +70,5 % |
+| Rendite p. a. | +2,48 % | +2,33 % |
 | Volatilität p. a. | 4,6 % | 4,4 % |
-| Sharpe-Ratio | 0,55 | 0,54 |
+| Sharpe-Ratio | 0,55 | 0,55 |
 | Sortino-Ratio | 0,80 | 0,80 |
 | Max. Drawdown | −11,1 % | −10,7 % |
 | Calmar-Ratio | 0,22 | 0,22 |
 | Schlechtester Tag | −1,74 % | −1,91 % |
 
-Die Währungsquote erzielt 2,48 % pro Jahr, der Korb 2,32 % – ein Vorsprung von 0,16 Prozentpunkten. Die Sharpe-Ratio liegt bei 0,55 gegenüber 0,54, der maximale Drawdown bei −11,1 % gegenüber −10,7 % (die Strategie fällt tiefer).
+Die Währungsquote erzielt 2,48 % pro Jahr, der Korb 2,33 % – ein Vorsprung von 0,16 Prozentpunkten. Die Sharpe-Ratio liegt bei 0,55 gegenüber 0,55, der maximale Drawdown bei −11,1 % gegenüber −10,7 % (die Strategie fällt tiefer).
 
 **Wie man die Kennzahlen liest:**
 
@@ -67,7 +67,7 @@ Die Währungsquote erzielt 2,48 % pro Jahr, der Korb 2,32 % – ein Vorsprung vo
 
 ## Was der Test einrechnet – und was nicht
 
-**Zinsen (Carry):** Jede Währung verdient zusätzlich ihren Leitzins (Notenbank-Leitzinsen der BIS, täglich abgerufen). Ohne Zinsen lägen Währungsquote und Korb bei 0,58 % bzw. 0,26 % pro Jahr, mit Zinsen bei 2,48 % bzw. 2,32 %. Die Sharpe-Ratio ist eine Bruttogröße ohne Abzug eines risikolosen Zinses.
+**Zinsen (Carry):** Jede Währung verdient zusätzlich ihren Leitzins (Notenbank-Leitzinsen der BIS, täglich abgerufen). Ohne Zinsen lägen Währungsquote und Korb bei 0,58 % bzw. 0,26 % pro Jahr, mit Zinsen bei 2,48 % bzw. 2,33 %. Die Sharpe-Ratio ist eine Bruttogröße ohne Abzug eines risikolosen Zinses.
 
 **Kosten:** Die Strategie schichtet um – pro Jahr wird das 2,0-Fache des Korbwerts bewegt. Gerechnet ist mit 5 Basispunkten je Umschichtung: Ohne Kosten läge die Rendite p. a. bei 2,58 % und die Sharpe-Ratio bei 0,57, mit Kosten bei 2,48 % bzw. 0,55. Der Korb selbst wird nicht umgeschichtet und trägt keine Kosten.
 
@@ -80,9 +80,9 @@ Die Währungsquote erzielt 2,48 % pro Jahr, der Korb 2,32 % – ein Vorsprung vo
 
 ## Und heute?
 
-Am 10.11.2026 ist der Korb am stärksten in Neuseeland-Dollar (+9,3 pp), Japanischer Yen (+7,6 pp), Kanadischer Dollar (+6,4 pp) **übergewichtet** und in Norwegische Krone (−9,1 pp), Britisches Pfund (−6,5 pp), Chinesischer Renminbi (−5,5 pp) **untergewichtet**. Am „teuersten“ gegenüber dem eigenen Vierjahres-Verlauf ist Norwegische Krone (z = 2,12), am „billigsten“ Neuseeland-Dollar (z = −1,21).
+Am 11.11.2026 ist der Korb am stärksten in Neuseeland-Dollar (+9,4 pp), Japanischer Yen (+7,6 pp), Kanadischer Dollar (+6,4 pp) **übergewichtet** und in Norwegische Krone (−9,1 pp), Britisches Pfund (−6,6 pp), Chinesischer Renminbi (−5,5 pp) **untergewichtet**. Am „teuersten“ gegenüber dem eigenen Vierjahres-Verlauf ist Norwegische Krone (z = 2,13), am „billigsten“ Neuseeland-Dollar (z = −1,22).
 
-In den letzten vier Wochen gegenüber dem Euro am stärksten: Schwedische Krone (+1,9 %), am schwächsten: Australischer Dollar (−1,3 %).
+In den letzten vier Wochen gegenüber dem Euro am stärksten: Schwedische Krone (+1,1 %), am schwächsten: Australischer Dollar (−1,2 %).
 
 ## Nachbauen
 
