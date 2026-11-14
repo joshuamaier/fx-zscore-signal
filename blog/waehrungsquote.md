@@ -6,7 +6,7 @@ status: entwurf
 
 # Währungsquote: Was, wenn man teure Währungen untergewichtet?
 
-*Stand 12.11.2026*
+*Stand 13.11.2026*
 
 Wer als Euro-Anleger in Fremdwährungen investiert, hat meist ein festes Währungsgewicht im Kopf. Die Frage
 dieses Beitrags: **Lohnt es sich, dieses Gewicht zu verschieben, sobald eine Währung im Vergleich zu ihrer eigenen
@@ -42,7 +42,7 @@ und Neuseeland-Dollar sowie Schwedischer und Norwegischer Krone. Vergleichsmaßs
 
 ## Ergebnis: Kennzahlen im Überblick
 
-19.01.2004 bis 12.11.2026 (23,2 Jahre). Einstellungen: Lookback 4 Jahre, Kappung 2,00σ, Glättung 15 Tage, Versatz 1 Tag(e), Kosten 5 bp, mit Carry.
+19.01.2004 bis 13.11.2026 (23,2 Jahre). Einstellungen: Lookback 4 Jahre, Kappung 2,00σ, Glättung 15 Tage, Versatz 1 Tag(e), Kosten 5 bp, mit Carry.
 
 | Kennzahl | Währungsquote | Gleichgewichteter Korb |
 |---|---:|---:|
@@ -67,7 +67,7 @@ Die Währungsquote erzielt 2,49 % pro Jahr, der Korb 2,33 % – ein Vorsprung vo
 
 ## Was der Test einrechnet – und was nicht
 
-**Zinsen (Carry):** Jede Währung verdient zusätzlich ihren Leitzins (Notenbank-Leitzinsen der BIS, täglich abgerufen). Ohne Zinsen lägen Währungsquote und Korb bei 0,59 % bzw. 0,27 % pro Jahr, mit Zinsen bei 2,49 % bzw. 2,33 %. Die Sharpe-Ratio ist eine Bruttogröße ohne Abzug eines risikolosen Zinses.
+**Zinsen (Carry):** Jede Währung verdient zusätzlich ihren Leitzins (Notenbank-Leitzinsen der BIS, täglich abgerufen). Ohne Zinsen lägen Währungsquote und Korb bei 0,59 % bzw. 0,26 % pro Jahr, mit Zinsen bei 2,49 % bzw. 2,33 %. Die Sharpe-Ratio ist eine Bruttogröße ohne Abzug eines risikolosen Zinses.
 
 **Kosten:** Die Strategie schichtet um – pro Jahr wird das 2,0-Fache des Korbwerts bewegt. Gerechnet ist mit 5 Basispunkten je Umschichtung: Ohne Kosten läge die Rendite p. a. bei 2,59 % und die Sharpe-Ratio bei 0,57, mit Kosten bei 2,49 % bzw. 0,55. Der Korb selbst wird nicht umgeschichtet und trägt keine Kosten.
 
@@ -80,9 +80,9 @@ Die Währungsquote erzielt 2,49 % pro Jahr, der Korb 2,33 % – ein Vorsprung vo
 
 ## Und heute?
 
-Am 12.11.2026 ist der Korb am stärksten in Neuseeland-Dollar (+9,5 pp), Japanischer Yen (+7,6 pp), Kanadischer Dollar (+6,5 pp) **übergewichtet** und in Norwegische Krone (−9,1 pp), Britisches Pfund (−6,6 pp), Chinesischer Renminbi (−5,6 pp) **untergewichtet**. Am „teuersten“ gegenüber dem eigenen Vierjahres-Verlauf ist Norwegische Krone (z = 2,28), am „billigsten“ Neuseeland-Dollar (z = −1,23).
+Am 13.11.2026 ist der Korb am stärksten in Neuseeland-Dollar (+9,5 pp), Japanischer Yen (+7,7 pp), Kanadischer Dollar (+6,5 pp) **übergewichtet** und in Norwegische Krone (−9,1 pp), Britisches Pfund (−6,6 pp), Chinesischer Renminbi (−5,8 pp) **untergewichtet**. Am „teuersten“ gegenüber dem eigenen Vierjahres-Verlauf ist Norwegische Krone (z = 2,26), am „billigsten“ Neuseeland-Dollar (z = −1,25).
 
-In den letzten vier Wochen gegenüber dem Euro am stärksten: Chinesischer Renminbi (+1,4 %), am schwächsten: Australischer Dollar (−1,7 %).
+In den letzten vier Wochen gegenüber dem Euro am stärksten: Chinesischer Renminbi (+1,7 %), am schwächsten: Australischer Dollar (−0,4 %).
 
 ## Nachbauen
 
