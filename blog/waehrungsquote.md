@@ -6,7 +6,7 @@ status: entwurf
 
 # Währungsquote: Was, wenn man teure Währungen untergewichtet?
 
-*Stand 25.11.2026*
+*Stand 26.11.2026*
 
 Wer als Euro-Anleger in Fremdwährungen investiert, hat meist ein festes Währungsgewicht im Kopf. Die Frage
 dieses Beitrags: **Lohnt es sich, dieses Gewicht zu verschieben, sobald eine Währung im Vergleich zu ihrer eigenen
@@ -42,11 +42,11 @@ und Neuseeland-Dollar sowie Schwedischer und Norwegischer Krone. Vergleichsmaßs
 
 ## Ergebnis: Kennzahlen im Überblick
 
-19.01.2004 bis 25.11.2026 (23,2 Jahre). Einstellungen: Lookback 4 Jahre, Kappung 2,00σ, Glättung 15 Tage, Versatz 1 Tag(e), Kosten 5 bp, mit Carry.
+19.01.2004 bis 26.11.2026 (23,2 Jahre). Einstellungen: Lookback 4 Jahre, Kappung 2,00σ, Glättung 15 Tage, Versatz 1 Tag(e), Kosten 5 bp, mit Carry.
 
 | Kennzahl | Währungsquote | Gleichgewichteter Korb |
 |---|---:|---:|
-| Gesamtrendite | +77,6 % | +71,0 % |
+| Gesamtrendite | +77,5 % | +70,9 % |
 | Rendite p. a. | +2,50 % | +2,33 % |
 | Volatilität p. a. | 4,6 % | 4,4 % |
 | Sharpe-Ratio | 0,56 | 0,55 |
@@ -80,9 +80,9 @@ Die Währungsquote erzielt 2,50 % pro Jahr, der Korb 2,33 % – ein Vorsprung vo
 
 ## Und heute?
 
-Am 25.11.2026 ist der Korb am stärksten in Neuseeland-Dollar (+9,7 pp), Japanischer Yen (+7,1 pp), Kanadischer Dollar (+6,5 pp) **übergewichtet** und in Norwegische Krone (−8,9 pp), Chinesischer Renminbi (−7,2 pp), Britisches Pfund (−6,7 pp) **untergewichtet**. Am „teuersten“ gegenüber dem eigenen Vierjahres-Verlauf ist Chinesischer Renminbi (z = 2,00), am „billigsten“ Neuseeland-Dollar (z = −1,30).
+Am 26.11.2026 ist der Korb am stärksten in Neuseeland-Dollar (+9,7 pp), Japanischer Yen (+7,0 pp), Kanadischer Dollar (+6,5 pp) **übergewichtet** und in Norwegische Krone (−8,8 pp), Chinesischer Renminbi (−7,5 pp), Britisches Pfund (−6,6 pp) **untergewichtet**. Am „teuersten“ gegenüber dem eigenen Vierjahres-Verlauf ist Chinesischer Renminbi (z = 1,97), am „billigsten“ Neuseeland-Dollar (z = −1,29).
 
-In den letzten vier Wochen gegenüber dem Euro am stärksten: US-Dollar (+2,0 %), am schwächsten: Australischer Dollar (−4,7 %).
+In den letzten vier Wochen gegenüber dem Euro am stärksten: Chinesischer Renminbi (+1,5 %), am schwächsten: Australischer Dollar (−4,3 %).
 
 ## Nachbauen
 
